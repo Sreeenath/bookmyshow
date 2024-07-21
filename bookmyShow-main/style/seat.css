@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+.seat{
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #1ea83c;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    color: #1ea83c;
+    cursor: pointer;
+}
+
+.header{
+    padding: 14px 0 9px 15px;
+}
+
+.h-0{
+    height: 0%;  
+}
+
+.fs-9{
+    font-size: 9px;
+}
+
+.theater-date-details{
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    color: #666;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.close-arrorw{
+    color: black;
+    font-size: large;
+}
+
+.seatDiv{
+    margin: auto;
+    width: 62%;
+}
+
+.seatType{
+    text-transform: uppercase;
+    width: 100%;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 5px;   
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.payBtn{
+    width: 49%;   
+    border-radius: 8px; 
+    min-height: 40px;
+    max-width: 400px;
+    background: #f84464;
+    color: #fff;
+    border: 0;
+    position: fixed;
+    bottom: 5px;
+    right: 32%;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.booked{
+
+    color: white;
+    border: #eee!important;
+    background: #eee!important;
+}

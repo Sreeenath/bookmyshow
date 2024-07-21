@@ -1,0 +1,39 @@
+.heart{
+    font-family: 'Material Symbols Outlined';
+    font-size: 26px;
+    line-height: 1;
+}
+
+.theater-heading{
+    font-size: 23px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.theater-location{
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+
+.details-text-div{
+
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    
+}
+
+.details-text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #dc3558;
+
+}

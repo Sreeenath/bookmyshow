@@ -1,0 +1,137 @@
+
+.listShowDiv {
+    background-color: rgb(49, 48, 53);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+.listShowDivOne {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: start;
+    justify-content: center;
+    opacity: 1;
+    
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 15px 56px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.fs-15{
+    font-size: 15px;
+}
+.iconDiv {
+    flex: 0 0 auto;
+}
+
+.footer-text-1 {
+    flex: 0 0 auto;
+    margin: 0px 16px 0px 4px;
+    font-weight: 600;
+}
+
+.text-2 {
+    flex: 1 1 0%;
+}
+
+.icon {
+    padding: 8px;
+}
+
+.contactToday{
+    flex: 0 0 auto;
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 7px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.gatsMW {
+    display: flex;
+    flex-flow: wrap;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: start;
+    align-items: start;
+    overflow: visible;
+    color: rgb(153, 153, 153);
+    width: 100%;
+    max-width: 1280px;
+    margin: 0px auto 15px;
+    padding: 0px 15px;
+}
+
+.eFQjTJ {
+    width: 100%;
+    padding-top: 25px;
+}
+
+.jnnqYA {
+    display: flex;
+    flex-flow: wrap;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: start;
+    align-items: start;
+    overflow: visible;
+    width: 100%;
+    background-color: rgb(51, 51, 56);
+    padding: 0px;
+}
+
+.logoDiv {
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 125px;
+    background-color: rgb(51, 51, 56);
+}
+
+.line {
+    flex: 1 1 0%;
+    height: 1px;
+    background: rgb(93, 93, 95);
+}
+
+.logoFooter {
+    padding: 0px 20px;
+}
+.mediaIconDiv {
+    text-align: center;
+    background-color: rgb(51, 51, 56);
+}
+
+.iconsDiv {
+    display: inline-block;
+    margin-right: 10px;
+    width: 37px;
+    height: 37px;
+}
+a {
+    background: #0000;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: initial;
+}
+.hOLPST svg {
+    fill: rgb(93, 93, 95);
+}
+
+.footerText{
+    padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    background-color: rgb(51, 51, 56);
+}

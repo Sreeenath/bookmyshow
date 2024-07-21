@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cover {
+
+    width: 90%;  
+    height: 50%; 
+    margin:auto;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.detailsMainDiv{
+    margin: auto;
+    width: 90%;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.detailsdiv{
+    max-width: 816px;
+}
+
+.eventName{
+    line-height: 28px;
+    margin-bottom: 8px;
+    color: #222222;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.btnBookEventTkt{
+    border-radius: 3px;
+    width: 158px;
+    color: white;
+    height: 52px;
+    font-size:18px;
+    border: 1px solid #EC5E71;
+    background-color: #EC5E71;
+    align-items: center;
+}
+
+.eventOtherDetails{
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+
+}
+
+.divStyle {
+    margin: auto;
+    width: 90%;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+         
+/* Add styles to the form container */
+.eventBookingForm {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    padding: 15px 20px;
+}
+
+/* Full-width input fields */
+.eventBookingForm input[type=text], .eventBookingForm input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.eventBookingForm input[type=text]:focus, .eventBookingForm input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.eventBookingForm .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.eventBookingForm .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.eventBookingForm .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    z-index: 8;
+  }
+.selectSeat{
+    padding: 24px 10px;
+}
+
+.hhpXm {
+    min-height: 400px;
+    width: 92%;
+    padding: 32px 0px;
+    align-items: center;
+    display: flex;               
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0px auto;
+    max-width: 1440px;
+}

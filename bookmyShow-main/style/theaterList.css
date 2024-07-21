@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.movie-name{
+    font-size: xx-large;
+}
+
+.movie-cert{
+    width: 2%;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #666;
+}
+
+.fs-11{
+    font-size: 11px;
+}
+
+.movie-genre{
+    display: inline;
+    border-radius: 15px;
+    border: 1px solid #666;
+}
+
+.movie-details-div{
+    border-bottom: 1px solid #d0d5e6;
+}
+
+.topBorder{
+    border-top: 1px solid #d0d5e6;
+}
+
+
+.date{
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: Roboto,sans-serif;
+}
+.dateDiv{
+    color: white;
+    text-align: center;   
+    width: 3%;
+    height: 47px;
+    background-color: #f84464;
+    border-radius: 7px;
+}
+
+.movie-lang-div{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding: 15px;
+    border-left: 1px solid #eceef1;
+   
+}
+
+.bottom-border{
+    border-bottom: 2px solid red;
+}
+
+
+.text-filter{
+    width:100%;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.dot{
+    height: 2px;
+    padding: 4px;
+    border-radius: 9px;
+    
+}
+
+.green{
+    background-color: #4abd5d;
+}
+
+.dot-text{
+    color: #717171;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.orange{
+    background-color: #f60;
+}
+
+.subtitle-icon{
+    border: 0.8px solid #4abd5d;
+    font-size: 8px;
+    font-weight: 700; 
+    height: 12px;
+    justify-content: center;
+    display: flex;
+    padding: 1px 1px 0;
+    align-items: center;
+    width: 22px;
+}
+
+
+
+.heart{   
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;   
+   
+    
+}
+
+.theater-name{
+    font-size: 12px;
+    width: 220px;
+    font-weight: 700;
+    color: #333;
+    float: left;
+}
+
+.info-txt{
+    font-weight: 500;
+    font-size: 10px;    
+    color: #7d7d7d;
+    margin-left: 4px;
+}
+
+.theater-time{
+    border: 1px solid #999;
+    color: #4abd5d;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    height: 32px;
+    display: flex;    
+    align-items: center;
+}
+
+.gold-icon{
+    width: 7px;
+    height: 7px;
+    background: #ffc610;
+    border-radius: 50%;
+}
+
+.nonCancelTxt{
+    color: #6c6c6c;
+    font-size: 12px;
+}
+
+.pointer{
+    cursor: pointer;
+}

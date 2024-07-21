@@ -1,0 +1,19 @@
+.table,th,td,tr {
+    border: 1px solid;
+}
+
+.addEventBtn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 68, 100);
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    width: 67px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid
+}
+
+.ps-16{
+    padding-left: 16%;
+}
